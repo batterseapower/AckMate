@@ -95,7 +95,7 @@
 		69C43B09112A361C007AC1C1 /* JPAckWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAckWindowController.m; sourceTree = "<group>"; };
 		69D7008B118115CA008A6125 /* ackmateExpanded.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ackmateExpanded.pdf; sourceTree = "<group>"; };
 		69D7008C118115CA008A6125 /* ackmateCollapsed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ackmateCollapsed.pdf; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* AckMate.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AckMate.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* AckMate.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AckMate.tmplugin; path = /Users/njoubert/Code/AckMate/build/Release/AckMate.tmplugin; sourceTree = "<absolute>"; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -176,7 +176,6 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* AckMate.tmplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";

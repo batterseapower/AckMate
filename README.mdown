@@ -4,6 +4,10 @@
 
 *This plugin is only compatible with Mac OS X 10.5 and above.*
 
+## Niels' Modifications
+
+The old plugin had Command-Shift-A as a keyboard shortcut, a nice parallel to the usual Command-Shift-F to find in a project. This new version has a super uncomfortable shortcut, so I changed it back to Cmd-Sft-A.
+
 ## Donations
 
 Like many of you, I do this sort of thing to keep my family warm, clothed, and fed. Every hour I spend on AckMate is an hour that I'm not billing for.

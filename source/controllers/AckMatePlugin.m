@@ -116,8 +116,8 @@
 
       // don't submit patches for the key equivalent, just set your own in
       // system preferences under keyboard / keyboard shortcuts
-      NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:title action:@selector(findWithAck:) keyEquivalent:@"f"];
-      [menuItem setKeyEquivalentModifierMask:(NSAlternateKeyMask | NSCommandKeyMask | NSControlKeyMask)];
+      NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:title action:@selector(findWithAck:) keyEquivalent:@"a"];
+      [menuItem setKeyEquivalentModifierMask:(NSShiftKeyMask | NSCommandKeyMask)];
       [menuItem setTarget:self];
       [findMenu insertItem:menuItem atIndex:index ? index-1 : 0];
       [menuItem release];

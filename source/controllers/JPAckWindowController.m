@@ -24,6 +24,8 @@
 
 @implementation JPAckWindowController
 
+const BOOL selectionSearchDefault = YES;
+
 NSString * const kJPAckLiteral = @"kJPAckLiteral";
 NSString * const kJPAckShowAdvanced = @"kJPAckShowAdvanced";
 NSString * const kJPAckNoCase = @"kJPAckNoCase";
@@ -285,7 +287,7 @@ NSString * const kJPAckWindowPosition = @"kJPAckWindowPosition";
 
 - (void)windowDidResignMain:(NSNotification*)notification
 {
-  selectionSearch = NO;
+  selectionSearch = selectionSearchDefault;
   self.selectedSearchFolder = nil;
 }
 
@@ -296,7 +298,7 @@ NSString * const kJPAckWindowPosition = @"kJPAckWindowPosition";
 
 - (void)updateSearchSelectionForEvent:(NSEvent*)event
 {
-  selectionSearch = ([event modifierFlags] & NSCommandKeyMask) ? YES : NO;
+  selectionSearch = ([event modifierFlags] & NSCommandKeyMask) ? !selectionSearchDefault : selectionSearchDefault;
   if (selectionSearch)
     self.selectedSearchFolder = [self projectSelectedSearchFolder];
   else
